@@ -1,0 +1,52 @@
+body {
+	background-image: url(img/Sfondo.jpg);
+	background-size: cover;
+}
+
+.boxTitolo {
+	font-size: 5em;
+	text-align: center; 
+	color: pink;
+	position: absolute;
+	top: 0%;
+	left: 68%;
+}
+
+ul#menu {
+	position: absolute;
+	top: 25%;
+	left: 59%;
+	height: 69%;
+	width: 20%;
+	text-align: right;
+	
+	font-size: 1.5em;
+	list-style-image: url(img/PuntoFiore.png);
+}
+
+.boxTitolo em {
+	font-family: cursive;
+	color: black;
+	font-size: 0.7em;
+}
+
+ul#menu p {
+	color: pink;
+	font-family: Arial;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+ul#menu li a:link {
+	color: green;
+	font-weight: bold;
+}
+
+ul#menu li a:visited {
+	color: lime;	
+}	
+
+ul#menu li a:hover {
+	color: purple;	
+}	
+

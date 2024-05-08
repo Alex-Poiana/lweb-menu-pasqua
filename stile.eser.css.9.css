@@ -1,0 +1,54 @@
+body {
+	background-image: url(img/Sfondo.jpg);
+	background-size: cover;
+}
+
+.boxTitolo {
+	font-size: 5em;
+	text-align: center; 
+	color: pink;
+	position: absolute;
+	top: 0%;
+	left: 68%;
+}
+
+.boxLista {
+	position: absolute;
+	top: 30%;
+	left: 59%;
+	/*height: 69%;*/
+	width: 22%;
+	text-align: right;
+}
+
+.boxTitolo em {
+	font-family: cursive;
+	color: black;
+	font-size: 0.7em;
+}
+
+.boxLista ul {
+	font-size: 1.7em;
+	list-style-image: url(img/PuntoFiore.png);
+}
+
+.boxLista p {
+	color: pink;
+	font-family: Arial;
+	font-size: 1.9em;
+	text-transform: uppercase;
+}
+
+.boxLista ul li a:link {
+	color: green;
+	font-weight: bold;
+}
+
+.boxLista ul li a:visited {
+	color: lime;	
+}	
+
+.boxLista ul li a:hover {
+	color: purple;	
+}	
+
